@@ -1,5 +1,5 @@
 
-from simpleimage import SimpleImage
+from simpleimage import SimpleImage # simpleimage library have to be installed (if not working properly just get the source code from github)
 INTENSITY_THRESHOLD = 1.6
 
 
@@ -16,13 +16,13 @@ def greenscreen(main_filename, back_filename):
 
 
 def main():
-    orginal_stop = SimpleImage("greenblack.jpg")
+    orginal_stop = SimpleImage("imagename1.jpg")
     orginal_stop.show()
 
-    back_img = SimpleImage("redred.jpg")
+    back_img = SimpleImage("imagename2.jpg.jpg")
     back_img.show()
 
-    new_image = greenscreen("greenblack.jpg", "redred.jpg")
+    new_image = greenscreen("imagename1.jpg", "imagename2.jpg")
     new_image.show()
 
 
