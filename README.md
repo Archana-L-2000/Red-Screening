@@ -1,3 +1,3 @@
 # Red-Screening--Code-in-Place-Stanford-University
 
-Learnt a new Technology frrom Stannford's Summer2021 Code in Place 😀
+Learnt a new Technology from Stanford's Spring 2021 Code in Place 😀
